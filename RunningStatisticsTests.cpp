@@ -1,4 +1,6 @@
-#include"RunningStatistics.cpp"
+#include"RunningStatisticsTests.h"
+
+#ifndef __RFduino__
 
 void testRunningStatistics() {
   // a speed test for running statistics
@@ -29,3 +31,5 @@ void testRunningStatistics() {
     }
   }
 }
+
+#endif //__RFduino__

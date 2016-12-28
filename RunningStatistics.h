@@ -31,6 +31,5 @@ struct RunningStatistics {
   float CV();
 };
 
-void testRunningStatistics();
 
 #endif
